@@ -3,7 +3,7 @@ import { Layout, Menu } from 'antd';
 import { HomeOutlined, CalendarOutlined, DollarOutlined, SettingOutlined } from '@ant-design/icons';
 import Home from './pages/Home';
 import Itinerary from './pages/Itinerary';
-import type Budget from './pages/Budget';
+import Budget from './pages/Budget';
 import Admin from './pages/Admin';
 import { AppProvider } from './context/AppContext';
 
