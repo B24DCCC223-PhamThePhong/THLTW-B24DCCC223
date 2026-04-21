@@ -1,0 +1,56 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 100;
+}
+
+/* container chính */
+.navbar-container {
+  max-width: 1000px;
+  margin: 20px auto;       /* 👉 tạo khoảng cách trên/dưới */
+  padding: 12px 20px;      /* 👉 khoảng cách trong */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #f9f9f9;
+  border-radius: 999px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* cho nổi lên */
+}
+
+/* logo */
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2563eb;
+}
+
+/* nhóm menu */
+.nav-links {
+  display: flex;
+  gap: 10px;   /* 👉 khoảng cách giữa các nút */
+}
+
+/* từng item */
+.nav-item {
+  padding: 8px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* hover */
+.nav-item:hover {
+  background: #e5e7eb;
+}
+
+/* active */
+.nav-item.active {
+  background: #2563eb;
+  color: white;
+}
